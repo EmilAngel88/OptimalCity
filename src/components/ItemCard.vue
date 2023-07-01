@@ -42,22 +42,22 @@ export default {
 }
 </script>
 
-<style lang="scss" module>
+<style module>
 .ItemCard {
     width: 150px;
     padding: 4px 8px;
     border: 1px solid #1f222a;
     border-radius: 8px;
     transition: .3s all ease;
+}
 
-    &:hover {
-        cursor: pointer;
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    }
+.ItemCard:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
 
-    &._selected {
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    }
+.ItemCard._selected {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .name {

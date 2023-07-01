@@ -34,7 +34,7 @@ export default {
     height: auto;
     padding: 13px 85px 13px 20px;
     border-radius: 8px;
-    border: 1px solid $Gray200;
+    border: 1px solid gray;
     background-color: #fff;
     outline: none;
 }

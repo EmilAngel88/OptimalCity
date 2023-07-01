@@ -54,7 +54,7 @@ export default {
 }
 </script>
 
-<style lang="scss" module>
+<style module>
 .Form {
     width: 200px;
 }
